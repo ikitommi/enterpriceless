@@ -18,8 +18,6 @@ lein do clean, uberjar
 
 ## Using
 
-## Using
-
 * try httpie (https://github.com/jkbr/httpie)
 
 ### Add Pertti
