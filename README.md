@@ -1,7 +1,7 @@
 enterpriceless
 ==============
 
-Sample WebNoir json-project from friday Clojure Intro.
+Sample WebNoir json-project from 15.3. Clojure Intro.
 
 ## Usage
 
