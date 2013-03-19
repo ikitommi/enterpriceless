@@ -123,3 +123,9 @@ Server: Jetty(7.6.1.v20120215)
     }
 }
 ```
+
+## License
+
+Copyright (c) 2013 Tommi Reiman
+
+See LICENSE
