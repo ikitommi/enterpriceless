@@ -45,7 +45,7 @@ Server: Jetty(7.6.1.v20120215)
 ### Add Liisa
 
 ```bash
-> http post http://localhost:8080/api/users name=liisa age=26 address:='{"street": "latokuja", "number": 16, "zip": 33110}'
+> http post http://localhost:8080/api/users name=liisa age:=26 address:='{"street": "latokuja", "number": 16, "zip": 33110}'
 
 HTTP/1.1 200 OK
 Content-Length: 92
@@ -59,7 +59,7 @@ Server: Jetty(7.6.1.v20120215)
         "street": "latokuja",
         "zip": 33110
     },
-    "age": "26",
+    "age": 26,
     "id": "2",
     "name": "liisa"
 }
@@ -92,7 +92,7 @@ Server: Jetty(7.6.1.v20120215)
             "street": "latokuja",
             "zip": 33110
         },
-        "age": "26",
+        "age": 26,
         "id": "2",
         "name": "liisa"
     }
@@ -117,7 +117,7 @@ Server: Jetty(7.6.1.v20120215)
             "street": "latokuja",
             "zip": 33110
         },
-        "age": "26",
+        "age": 26,
         "id": "2",
         "name": "liisa"
     }
